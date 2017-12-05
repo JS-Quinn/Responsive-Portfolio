@@ -1,89 +1,74 @@
-<!DOCTYPE HTML>
-<html>
-	
-	<head>
-		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta charset="UTF-8">
-		<title> Portfolio </title>
-		<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
+<!doctype html>
+<html lang="en-us">
 
-	<body>
-		
-		<header>
-			<div class="top-wrapper">
-				<section class="topnav">
-					<tr>
-						<td><a class="name" href="#"> Joseph Quinn </a></td>
-						<td><a class="about" href="index.html">About</a></td>
-						<td><a class="bar-one" href="#"></a></td>
-						<td><a class="portfolio" href="portfolio.html">Portfolio</a></td>
-						<td><a class="bar-two" href="#"></a></td>
-						<td><a class="contact" href="contact.html">Contact</a></td>
-						<td><a class="bar-three" href="#"></a></td>
-					</tr>
-				</section>
-			</div>
-		</header>
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-		<div class="wrapper">
-			<main>
-				<section class="main-body">
-					<a class="title"> <h1> Portfolio </h1></a>
-					<div class="border-line"></div>
-					<div class="tile hangman">
-						<img src="assets/images/hangman.png">
-						<p class="tilename">Hangman</p>
-					</div>
-					<div class="tile rpg"> 
-						<img src="assets/images/rpg.png">
-						<p class="tilename">RPG</p>
-					</div>
-					<div class="tile trivia"> 
-						<img src="assets/images/trivia.png">
-						<p class="tilename">Trivia</p>
-					</div>
-					<div class="tile widget"> 
-						<img src="assets/images/widget.png">
-						<p class="tilename">Widget</p>
-					</div>
-					<div class="tile rock"> 
-						<img src="assets/images/rock.png">
-						<p class="tilename" id="RPS">Rock Paper Scissors</p>
-					</div>
-				</section>
-			</main>
+<body>
 
-			<aside>
-				<section class="main-aside">
-					<h3>Connect with Me</h3>
-					<div class="border-line"></div>
-						<tr>
-							<td><a href="https://github.com/JS-Quinn" target="_blank">
-									<img src="assets/images/github_logo.png" alt="GitHub">
-								</a>
-							</td>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-							<td><a href="https://www.linkedin.com/in/joseph-quinn-4ab472141/" target="_blank">
-									<img src="assets/images/linkedin_logo.png" alt="LinkedIn">
-								</a>
-							</td>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
 
-							<td><a href="https://stackoverflow.com/users/8821599/js-quinn" target="_blank">
-									<img src="assets/images/overflow_logo.png"  alt="Stack Overflow">
-								</a>
-							</td>
-						</tr>
-				</section>
-			</aside>
-		</div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
 
-		<footer>
-			<section class="main-footer">
-				<p> &copy; Copyright 2017 Joseph Quinn </p>
-			</section>
-		</footer>
-	</body>
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
+</body>
+
 </html>
