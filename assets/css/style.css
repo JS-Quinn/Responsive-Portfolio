@@ -247,20 +247,26 @@ footer {
 /*DESKTOP MEDIA QUERY*/
 @media screen and (max-width: 980px) {
 	body {
-	
+
 	}
 }
 
 /*TABLET MEDIA QUERY*/
 @media screen and (max-width: 768px) {
-	.wrapper {
+	.main-body {
 		width: 768px;
+	}
+	.main-aside {
+		float: none;
 	}
 }
 
 /* HORIZONTAL PHONE MEDIA QUERY*/
 @media screen and (max-width: 640px) {
-	.wrapper {
+	.main-body {
 		width: 640px;
+	}
+	.main-aside {
+		float: none;
 	}
 }
