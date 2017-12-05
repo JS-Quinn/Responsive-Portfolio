@@ -1,2 +1,1 @@
-# Responsive-Portfolio
-Repository for Assignment #2
+# Basic-Portfolio
