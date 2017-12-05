@@ -254,10 +254,19 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 640px) {
+
+  .main-section {
+    width: 95%;
+    max-width: 95%;
+    margin-left: 10px;
+  }
+
   .sidebar {
     float: none;
-    width: 100%;
-    max-width: 100%;
+    width: 95%;
+    max-width: 95%;
+    margin-left: 10px;
+   
   }
 
   #logo {
@@ -267,5 +276,10 @@ input[type=submit] {
   nav {
     float: none;
     text-align: center;
+    margin-top: 0px;
+  }
+
+  .work {
+  
   }
 }
