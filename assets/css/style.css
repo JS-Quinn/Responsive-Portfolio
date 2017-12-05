@@ -243,20 +243,24 @@ footer {
 
 }
 
+
+/*DESKTOP MEDIA QUERY*/
 @media screen and (max-width: 980px) {
 	body {
 	
 	}
 }
 
+/*TABLET MEDIA QUERY*/
 @media screen and (max-width: 768px) {
-	body {
-		
+	.wrapper {
+		width: 768px;
 	}
 }
 
+/* HORIZONTAL PHONE MEDIA QUERY*/
 @media screen and (max-width: 640px) {
-	body {
-	
+	.wrapper {
+		width: 640px;
 	}
 }
