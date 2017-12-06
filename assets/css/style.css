@@ -289,8 +289,19 @@ input[type=submit] {
     width: 95%;
     max-width: 95%;
     margin-left: 10px;
-    margin-top: 675px;
    
+  }
+
+  .sidebar-index {
+    margin-top: 675px;
+  }
+
+  .sidebar-portfolio: {
+    margin-top: 750px;
+  }
+
+  .sidebar-contact {
+    margin-top: 600px;
   }
 
   #logo {
