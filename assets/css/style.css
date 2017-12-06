@@ -247,15 +247,15 @@ input[type=submit] {
   .main-section {
     width: 95%;
     max-width: 95%;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .sidebar {
     float: none;
     width: 95%;
     max-width: 95%;
-    margin-left: 10px;
-    margin-top: 475px;
+    margin-left: 20px;
+    margin-top: 425px;
    
   }
 
@@ -289,7 +289,7 @@ input[type=submit] {
     width: 95%;
     max-width: 95%;
     margin-left: 10px;
-    margin-top: 475px;
+    margin-top: 675px;
    
   }
 
