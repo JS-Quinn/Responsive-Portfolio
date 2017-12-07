@@ -255,8 +255,18 @@ input[type=submit] {
     width: 95%;
     max-width: 95%;
     margin-left: 20px;
+  }
+
+  .sidebar-index {
     margin-top: 425px;
-   
+  }
+
+  .sidebar-portfolio {
+    margin-top: 950px;
+  }
+
+  .sidebar-contact {
+    margin-top: 625px;
   }
 
   #logo {
@@ -282,6 +292,10 @@ input[type=submit] {
     max-width: 95%;
     margin-left: 10px;
     margin-bottom: 15px;
+  }
+
+  .work {
+   
   }
 
   .sidebar {
