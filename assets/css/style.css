@@ -239,6 +239,21 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 980px) {
+
+  .main-section {
+    width: 60%;
+    max-width: 60%;
+    margin-left: 20px;
+  }
+  .sidebar {
+    width: 30%;
+    max-width: 30%;
+    margin-right: 20px;
+  }
+  nav {
+    
+        margin-right: 25px;
+      }
     
 }
 
@@ -269,18 +284,9 @@ input[type=submit] {
     margin-top: 625px;
   }
 
-  #logo {
-    width: 100%;
-  }
-
   nav {
-    float: none;
-    text-align: center;
-    margin-top: 0px;
-  }
 
-  .work {
-  
+    margin-right: 25px;
   }
   
 }
@@ -292,10 +298,6 @@ input[type=submit] {
     max-width: 95%;
     margin-left: 10px;
     margin-bottom: 15px;
-  }
-
-  .work {
-   
   }
 
   .sidebar {
@@ -328,7 +330,4 @@ input[type=submit] {
     margin-top: 0px;
   }
 
-  .work {
-  
-  }
 }
